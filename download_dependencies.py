@@ -62,5 +62,5 @@ if __name__ == "__main__":
         # 安装依赖
         install_requirements(requirements_file)
     # 安装模型
-    model_url = "https://www.modelscope.cn/damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch.git"
+    model_url = "https://huggingface.co/hezhaoqia/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch"
     install_model(model_url)
